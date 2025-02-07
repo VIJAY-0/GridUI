@@ -34,6 +34,606 @@ const posts = [
     author: "Mike Smith",
     timestamp: "2023-07-20T15:30:00"
   },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
+
+  {
+    id: 1,
+    title: "Beautiful Sunset",
+    description: "Captured this amazing sunset at the beach",
+    imageUrl: img_api, // Thumbnail for grid
+    images: [
+      img_api_url,
+      img_api_url,
+      img_api_url,
+      img_api_url,
+    ],
+    remarks: [
+      { id: 1, user: "John", comment: "Stunning view!" },
+      { id: 2, user: "Sarah", comment: "Love the colors!" }
+    ],
+    reactions: {
+      like: 42,
+      love: 23,
+      wow: 15
+    },
+    author: "Mike Smith",
+    timestamp: "2023-07-20T15:30:00"
+  },
   
   {
     id: 1,

@@ -1,9 +1,8 @@
 // MediaGrid.js
-import React, { useState , useCallback} from 'react';
+import React, { useState , useCallback,useMemo } from 'react';
 import Modal from './Modal';
 import PostDetail from './PostDetails/PostDetails';
 import './MediaGrid.css';
-
 const MediaGrid = ({ posts }) => {
     const [selectedPost, setSelectedPost] = useState(null);
   
@@ -15,46 +14,49 @@ const MediaGrid = ({ posts }) => {
       setSelectedPost(null);
     }, []);
 
-  // Function to determine post size class
-  const getPostSize = (index) => {
-    // Create different patterns based on index
-    const rand = Math.random();
-    if (rand < 0.3) return 'post-large'; // 10% chance
-    if (rand < 0.4) return 'post-medium'; // 15% chance
-    if (rand < 0.5) return 'post-horizontal'; // 15% chance
-    if (rand < 0.65) return 'post-vertical'; // 15% chance
-    return 'post-small'; // 45% chance
+    // Generate stable sizes for posts using useMemo
+    const postSizes = useMemo(() => {
+        return posts.map((post, index) => {
+            // Use a stable seed based on post id or index
+            // const seed = post.id || index;
+            const rand = Math.random()
 
-    if (index % 18 === 0) return 'post-large'; // Extra large post
-    if (index % 8 === 0) return 'post-horizontal'; // Horizontal rectangle
-    if (index % 6 === 0) return 'post-vertical'; // Vertical rectangle
-    if (index % 5 === 0) return 'post-medium'; // Medium square
-    return 'post-small'; // Default small square
-  };
-  
+            if (rand < 0.3) return 'post-large';
+            if (rand < 0.4) return 'post-medium';
+            if (rand < 0.5) return 'post-horizontal';
+            if (rand < 0.65) return 'post-vertical';
+            return 'post-small';
+        });
+    }, [posts]); // Only recalculate if posts array changes
+
     return (
-      <>
-        <div className="media-grid">
-          {posts.map((post,index) => (
-            <Post 
-              key={index} 
-              post={post} 
-              sizeClass={getPostSize(index)}
-              onClick={handlePostClick}
-            />
-          ))}
-        </div>
-  
-        <Modal 
-          isOpen={selectedPost !== null}
-          onClose={handleCloseModal}
-        >
-          {selectedPost && <PostDetail post={selectedPost} />}
-        </Modal>
-      </>
-    );
-  };
+        <>
+            <div className="media-grid">
+                {posts.map((post, index) => (
+                    <Post 
+                        key={index}
+                        post={post}
+                        sizeClass={postSizes[index]}
+                        onClick={handlePostClick}
+                    />
+                ))}
+            </div>
 
+            <Modal 
+                isOpen={selectedPost !== null}
+                onClose={handleCloseModal}
+            >
+                {selectedPost && <PostDetail post={selectedPost} />}
+            </Modal>
+        </>
+    );
+};
+
+// Utility function for stable random number generation
+const seededRandom = (seed) => {
+    const x = Math.sin(seed * 9999) * 10000;
+    return x - Math.floor(x);
+};
 
 
 // Post.js
